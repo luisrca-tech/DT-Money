@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
@@ -9,7 +9,7 @@
       "createdAt": "2024-03-05T19:03:50.235Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
@@ -17,12 +17,28 @@
       "createdAt": "2024-03-05T19:03:40.235Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "Ignaite Rocketseat",
       "type": "outcome",
       "category": "Educação",
       "price": 300,
       "createdAt": "2024-03-05T19:03:30.235Z"
+    },
+    {
+      "id": "fc3d",
+      "description": "Desenvolvimento web",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-03-06T22:03:50.399Z"
+    },
+    {
+      "id": "ffc7",
+      "description": "maça",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-03-06T22:20:40.541Z"
     }
   ]
 }
