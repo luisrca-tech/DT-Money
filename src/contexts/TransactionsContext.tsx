@@ -1,6 +1,6 @@
-import { ReactNode, useEffect, useState, useCallback } from 'react'
-import { api } from '../lib/axios'
+import { ReactNode, useCallback, useEffect, useState } from 'react'
 import { createContext } from 'use-context-selector'
+import { api } from '../lib/axios'
 
 interface Transaction {
   id: number
@@ -42,7 +42,6 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     })
 
     setTransactions(response.data)
-    console.log(response.data)
   }, [])
 
   const createTransaction = useCallback(

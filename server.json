@@ -39,6 +39,22 @@
       "category": "Alimentação",
       "type": "outcome",
       "createdAt": "2024-03-06T22:20:40.541Z"
+    },
+    {
+      "id": "1687",
+      "description": "Desenvolvimento backend",
+      "price": 10000,
+      "category": "Tecnologia",
+      "type": "outcome",
+      "createdAt": "2024-03-07T00:38:30.575Z"
+    },
+    {
+      "id": "096d",
+      "description": "pera",
+      "price": 5,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-03-07T00:41:18.954Z"
     }
   ]
 }
