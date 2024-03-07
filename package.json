@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "npx json-server server.json -w",
+    "dev:server": "json-server server.json -p 3333 -w -d 500",
     "build": "tsc && vite build",
     "lint": "eslint src --ext .tsx,.ts",
     "lint:fix": "eslint src --ext .tsx,.ts --fix",
@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.0",
     "scheduler": "^0.23.0",
+    "styled-components": "^6.1.8",
     "use-context-selector": "^1.4.3",
     "zod": "^3.22.4"
   },
@@ -36,7 +37,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "json-server": "^1.0.0-alpha.23",
-    "styled-components": "^6.1.8",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   }
